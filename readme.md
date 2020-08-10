@@ -31,6 +31,8 @@ TypeScript Programming
       1. function myfx(function(x,y){......})
       2. myfx((x,y)=> {......});
 7. Collection methods for Array and String
+   1. Array, is defined using [];
+   2. Array<T>, the generic array type
 8. Object Oriented Programming, ES 6
 9. Modules, ES 6
 10. Transpilations--> Compilation and then Transformation aka Compiled Transformation
@@ -42,11 +44,21 @@ Installing JavaScript
 1. Install it in Global Scope of Machine
    1. npm install -g typescript
 2. The 'tsc' utility aka CLI, used to transpile the .ts files into .js javascript files
-3. CReate package.json file, the JavaScript package configuartion file generated using
+3. To run the JavaScript
+   1. Either create HTML page and refer JavaScript on HTML Page and execute in browser
+   2. OR run the JavaScript file on Node.js server
+      1. node <File>.js
+4. CReate package.json file, the JavaScript package configuartion file generated using
    1. npm init -y ----------------> command
-4. The 'devDependencies' for development time packages
+5. The 'devDependencies' for development time packages
    1. npm install --save-dev <PACKAGE-NAME>
-5. The 'dependencies' for runtime required packages
+6. The 'dependencies' for runtime required packages
    1. npm install --save <PACKAGE-NAME>
 
 ======================================================================================
+Ex 1: Create string with following value
+TypeScrtipt is a front-end language that is an alternative to JavaSCript. This improves the JavaScript productivity. the typescript helps to use OOPs pattern for front-end development.
+
+1.  Convert the string into statement case. First character of first word of each statement must be upper case.
+2.  Find out the number of occurences of specific word and character in string.
+3.  COnvert first character of each word in upper case.
